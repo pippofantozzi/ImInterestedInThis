@@ -1,6 +1,6 @@
 import streamlit as st
 from texts.textNEAT import get_images, process_text
-st.set_page_config(theme="dark")
+
 st.title("🐣 The NEAT Algorithm")
 st.subheader("How Natural Selection and Evolution can help us make better AI")
 
