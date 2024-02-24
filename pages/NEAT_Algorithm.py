@@ -8,7 +8,7 @@ st.markdown("---")
 
 st.write("Imagine you're in charge of evolving a population of creatures to perform a specific task, like navigating a maze. That's where NEAT, or NeuroEvolution of Augmenting Topologies, comes into play.")
 st.markdown("##")
-st.video("webimages\Flappy.mp4")
+st.video("webimages\giphy.mp4")
 
 subheaders, texts = process_text()
 images = get_images()
