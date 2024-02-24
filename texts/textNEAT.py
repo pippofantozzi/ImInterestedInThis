@@ -84,9 +84,9 @@ def process_text(input_text=text):
 subheaders, texts = process_text()
 print(subheaders)
 
-images = ["webimages\evolution.png","webimages\euralnetworks.jpg","webimages\mutations.png","webimages\speciation.jpeg","webimages\survival.webp",
-          "webimages\evolution.jpg","webimages\crossover.png","Nothing","Nothing","webimages\deepneuralnet.jpg","webimages\eatstructure.png",
-          "Nothing","webimages\oocomplex.gif","webimages\generations.jpg","Nothing","Nothing"]
+images = ["webimages/evolution.png","webimages/euralnetworks.jpg","webimages/mutations.png","webimages/speciation.jpeg","webimages/survival.webp",
+          "webimages/evolution.jpg","webimages/crossover.png","Nothing","Nothing","webimages/deepneuralnet.jpg","webimages/eatstructure.png",
+          "Nothing","webimages/oocomplex.gif","webimages/generations.jpg","Nothing","Nothing"]
 
 
 def get_images(images = images):
