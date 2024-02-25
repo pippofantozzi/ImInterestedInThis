@@ -2,7 +2,11 @@ import streamlit as st
 from texts.textTuring import get_images, process_text,simulate_turing_patterns
 import matplotlib.pyplot as plt
 
-
+st.set_page_config(
+    page_title="Im Interested In Turing Patterns",
+    page_icon="🐯",
+    
+)
 st.title("🐯 Unraveling Nature's Patterns: The Turing Theory")
 st.subheader("How The Spots In Cheetas Relate To AI Image Generation")
 
