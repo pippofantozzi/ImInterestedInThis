@@ -31,7 +31,10 @@ for i in range(len(subheaders)):
     st.subheader(subheaders[i])
     st.write(texts[i])
     if images[i] != "Nothing":
-        st.image(images[i], caption=subheaders[i], use_column_width=True)
+        try:
+            st.image(images[i], caption=subheaders[i], use_column_width=True)
+        except:
+            pass
 
     
 
