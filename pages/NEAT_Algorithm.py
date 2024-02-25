@@ -2,7 +2,7 @@ import streamlit as st
 from texts.textNEAT import get_images, process_text
 st.set_page_config(
     page_title="Im Interested In NEAT",
-    page_icon="🔍",
+    page_icon="🐣",
     
 )
 
