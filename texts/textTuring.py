@@ -56,7 +56,7 @@ def process_text(input_text=text):
 subheaders, texts = process_text()
 print(subheaders)
 
-images = ["images/TuringPatterns/lanturing.jpg","images/TuringPatterns/equation.png","images/TuringPatterns/unnies.JPG","images/TuringPatterns/patterns.webp",
+images = ["images/TuringPatterns/lanturing.webp","images/TuringPatterns/equation.png","images/TuringPatterns/unnies.JPG","images/TuringPatterns/patterns.webp",
           "Nothing","images/TuringPatterns/morphogenesis.jpeg","images/TuringPatterns/stablediffusion.jpg","Nothing"]
 
 
