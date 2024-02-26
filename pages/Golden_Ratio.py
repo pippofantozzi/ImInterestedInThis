@@ -9,7 +9,7 @@ st.markdown("---")
 
 st.write("The Golden Ratio, often symbolized as Phi (Φ) or phi, is a mathematical constant that has fascinated mathematicians, artists, and scientists for centuries. Its value, approximately 1.618, is found in various natural, architectural, and artistic forms, leading many to speculate about its universal significance. However, the distinction between the myth and reality of the Golden Ratio is nuanced, blending mathematical truths with human pattern recognition tendencies.")
 st.markdown("##")
-st.image("images\Golden\chameleon.jpg",caption="The Golden Ratio",use_column_width=True)
+st.image("images/Golden/chameleon.jpg",caption="The Golden Ratio",use_column_width=True)
 
 subheaders, texts = process_text()
 images = get_images()
