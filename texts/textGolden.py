@@ -56,7 +56,7 @@ def process_text(input_text=text):
 subheaders, texts = process_text()
 print(subheaders)
 
-images = ["images\Golden\Grectangle.JPG","images\Golden\eigen.JPG","images\Golden\Dtrump.jpeg","images\Golden\Gtrading.jpg","images\Golden\Gflower.jpg","images\Golden\illustration.webp","Nothing"]
+images = ["images/Golden/Grectangle.JPG","images/Golden/eigen.JPG","images/Golden/Dtrump.jpeg","images/Golden/Gtrading.jpg","images/Golden/Gflower.jpg","images/Golden/illustration.webp","Nothing"]
 
 
 def get_images(images = images):
