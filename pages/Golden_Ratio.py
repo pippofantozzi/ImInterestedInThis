@@ -1,7 +1,11 @@
 import streamlit as st
 from texts.textGolden import get_images, process_text
 
-
+st.set_page_config(
+    page_title="Im Interested In The Golden Ratio",
+    page_icon="🐌",
+    
+)
 st.title("🐌 The Golden Ratio")
 st.subheader("Unveiling the Myth and Reality in Nature")
 
@@ -25,7 +29,7 @@ for i in range(len(subheaders)):
         check = st.button("Click to check:")
         if check:
             if choice == "D":
-                st.write("You picked the Golden Rectangle, which 79% of our users agree is the most aesthetic rectangle of the bunch")
+                st.write("You picked the Golden Rectangle, which 79% of our users agree is the most aesthetic rectangle of the bunch. Good job")
             else:
                 st.write(f"You picked {choice}, while the Golden Rectangle was D. Maybe your mind works in a unique way. (Take that as a compliment)")
         
