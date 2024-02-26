@@ -2,7 +2,7 @@ import streamlit as st
 from texts.textGolden import get_images, process_text
 
 
-st.title("🪷 The Golden Ratio")
+st.title("🐌 The Golden Ratio")
 st.subheader("Unveiling the Myth and Reality in Nature")
 
 st.markdown("---")
