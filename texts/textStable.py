@@ -61,8 +61,8 @@ def process_text(input_text=text):
 subheaders, texts = process_text()
 print(subheaders)
 
-images = ["images\StableDiffusion\donut.webp","images\StableDiffusion\gan.webp","images\StableDiffusion\sculptor.webp","images\StableDiffusion\orchestra.webp","images\StableDiffusion\paper.JPG",
-          "images\StableDiffusion\diffusion.png","images\StableDiffusion\sunset.webp","Nothing","Nothing"]
+images = ["images/StableDiffusion/donut.webp","images/StableDiffusion/gan.webp","images/StableDiffusion/sculptor.webp","images/StableDiffusion/orchestra.webp","images/StableDiffusion/paper.JPG",
+          "images/StableDiffusion/diffusion.png","images/StableDiffusion/sunset.webp","Nothing","Nothing"]
 
 def get_images(images = images):
     return images
