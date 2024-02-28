@@ -61,7 +61,7 @@ def process_text(input_text=text):
 subheaders, texts = process_text()
 print(subheaders)
 
-images = ["images/PIML/initial.webp","images/PIML/piml.png","images/PIML/ew.png"]
+images = ["images/PIML/initial.webp","images/PIML/piml.png","images/PIML/ew.png","Nothing","Nothing","Nothing","Nothing"]
 
 def get_images(images = images):
     return images
